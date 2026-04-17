@@ -1,107 +1,226 @@
-# ⚡ QuizApp — Version Control System Project
+# \# ⚡ QuizApp — Version Control System Project
 
-**Group 13 | Quiz Application with Version Control**
+# 
 
-A browser-based quiz application built with HTML, CSS, and JavaScript. Supports multiple categories, timed questions, score tracking, and a local leaderboard.
+# \*\*Group 13 | Quiz Application with Git Version Control\*\*
 
----
+# 
 
-## 👥 Team Members & Roles
+# A browser-based interactive quiz application built using \*\*HTML, CSS, and JavaScript\*\*, demonstrating both frontend development and practical usage of \*\*Git \& GitHub for version control\*\*.
 
-| Enrollment | Name             | Role                            |
-|------------|------------------|---------------------------------|
-| 2481129    | Vanshika Vats    | Project Manager + Documentation |
-| 2481228    | Vedant Mathur    | Developer + GitHub Manager      |
-| 2481193    | Vihaan Yadav     | Tester + Documentation          |
-| 2481183    | Vinayak Chibber  | UI Developer + Tester           |
-| 2481008    | Vineet Kashyap   | Support Developer               |
+# 
 
----
+# \---
 
-## 🚀 Features
+# 
 
-- 🎯 **10 random questions** per session from a 20-question bank
-- ⏱️ **20-second timer** per question with visual countdown
-- 📚 **5 categories**: Science, Technology, Mathematics, History, General Knowledge
-- 🏆 **Leaderboard** with top 10 scores (persists via `localStorage`)
-- 📊 **Answer breakdown** after every game
-- 📱 **Fully responsive** — works on mobile and desktop
+# \## 👥 Team Members \& Roles
 
----
+# 
 
-## 📁 Project Structure
+# | Enrollment | Name            | Role                            |
 
-```
-quiz-app/
-│
-├── index.html       # App shell & all screen templates
-├── style.css        # Styling (dark theme, animations)
-├── script.js        # Game logic, state, timer, scoring
-├── questions.js     # Question bank (20 questions)
-│
-├── README.md        # This file
-├── CONTRIBUTING.md  # Git workflow & branching guide
-└── .gitignore       # Files to ignore in version control
-```
+# | ---------- | --------------- | ------------------------------- |
 
----
+# | 2481129    | Vanshika Vats   | Project Manager + Documentation |
 
-## 🛠️ How to Run
+# | 2481228    | Vedant Mathur   | Developer + GitHub Manager      |
 
-No build tools or server required.
+# | 2481193    | Vihaan Yadav    | Tester + Documentation          |
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/quiz-app.git
-   cd quiz-app
-   ```
+# | 2481183    | Vinayak Chibber | UI Developer + Tester           |
 
-2. Open `index.html` in your browser:
-   - Double-click the file, **or**
-   - Use VS Code with Live Server extension
+# | 2481008    | Vineet Kashyap  | Support Developer               |
 
-That's it! The app runs entirely in the browser.
+# 
 
----
+# \---
 
-## 🎮 How to Play
+# 
 
-1. Enter your name on the welcome screen
-2. Hit **Start Quiz**
-3. Answer 10 randomised questions — you have 20 seconds per question
-4. Selecting an option locks it in; the correct answer is highlighted
-5. Click **Next Question** to advance
-6. View your score, answer breakdown, and leaderboard at the end
+# \## 🚀 Features
 
----
+# 
 
-## 📖 Technical Details
+# \* 🎯 \*\*10 random questions\*\* per session from a 20-question pool
 
-| Detail           | Value                          |
-|------------------|--------------------------------|
-| Language         | HTML5, CSS3, Vanilla JavaScript (ES6+) |
-| Data Storage     | Browser `localStorage`         |
-| External Deps    | Google Fonts (Sora, JetBrains Mono) |
-| Browser Support  | All modern browsers            |
-| Accessibility    | Keyboard navigation supported  |
+# \* ⏱️ \*\*20-second timer\*\* per question
 
----
+# \* 📚 \*\*Multiple categories\*\* (Science, Tech, Math, History, GK)
 
-## 🧩 Adding More Questions
+# \* 🏆 \*\*Leaderboard system\*\* using browser storage
 
-Open `questions.js` and add an object to the `QUESTIONS` array:
+# \* 📊 \*\*Detailed result analysis\*\* after quiz
 
-```js
-{
-  category: "Your Category",
-  question: "Your question text?",
-  options: ["Option A", "Option B", "Option C", "Option D"],
-  answer: 0  // index of the correct option (0-based)
-}
-```
+# \* 📱 \*\*Responsive design\*\* (mobile + desktop support)
 
----
+# 
 
-## 📜 License
+# \---
 
-Academic project — Group 13, Version Control System Subject.
+# 
+
+# \## 📁 Project Structure
+
+# 
+
+# ```
+
+# quiz-app/
+
+# │
+
+# ├── index.html       # Main UI structure
+
+# ├── style.css        # Styling and layout (dark theme)
+
+# ├── script.js        # Core logic (quiz flow, timer, scoring)
+
+# ├── questions.js     # Question dataset
+
+# │
+
+# ├── README.md        # Project documentation
+
+# ├── CONTRIBUTING.md  # Git workflow \& branching strategy
+
+# └── .gitignore       # Ignored files for Git
+
+# ```
+
+# 
+
+# \---
+
+# 
+
+# \## 🛠️ How to Run the Project
+
+# 
+
+# 1\. Clone the repository:
+
+# 
+
+# &#x20;  ```bash
+
+# &#x20;  git clone https://github.com/VedantMathur1079/quiz--app.git
+
+# &#x20;  cd quiz--app
+
+# &#x20;  ```
+
+# 
+
+# 2\. Run the application:
+
+# 
+
+# &#x20;  \* Open `index.html` in any browser
+
+# &#x20;  \* No server or installation required
+
+# 
+
+# \---
+
+# 
+
+# \## 🎮 How to Use
+
+# 
+
+# 1\. Enter your name
+
+# 2\. Click \*\*Start Quiz\*\*
+
+# 3\. Answer questions within 20 seconds
+
+# 4\. View score and correct answers at the end
+
+# 5\. Check leaderboard rankings
+
+# 
+
+# \---
+
+# 
+
+# \## 🔄 Version Control Implementation
+
+# 
+
+# This project demonstrates practical usage of \*\*Git \& GitHub\*\*:
+
+# 
+
+# \* Repository initialized using `git init`
+
+# \* Files tracked using `git add`
+
+# \* Changes committed with meaningful messages
+
+# \* Code pushed to remote GitHub repository
+
+# \* `.gitignore` used to exclude unnecessary files
+
+# \* Structured documentation using README and CONTRIBUTING files
+
+# 
+
+# \---
+
+# 
+
+# \## 📖 Technical Details
+
+# 
+
+# | Aspect       | Details                       |
+
+# | ------------ | ----------------------------- |
+
+# | Technologies | HTML5, CSS3, JavaScript (ES6) |
+
+# | Storage      | Browser `localStorage`        |
+
+# | Dependencies | None (Vanilla JS)             |
+
+# | Platform     | Web Browser                   |
+
+# 
+
+# \---
+
+# 
+
+# \## 🧩 Future Improvements
+
+# 
+
+# \* Add difficulty levels
+
+# \* Add timer customization
+
+# \* Improve UI animations
+
+# \* Add backend for global leaderboard
+
+# 
+
+# \---
+
+# 
+
+# \## 📜 License
+
+# 
+
+# This project is developed for \*\*academic purposes\*\* under the Version Control System course.
+
+# 
+
+# \---
+
+
+
