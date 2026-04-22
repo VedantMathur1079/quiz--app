@@ -6,18 +6,15 @@ desktop.ini
 # Editor files
 .vscode/
 .idea/
-*.suo
-*.user
 
 # Logs
 *.log
-npm-debug.log*
 
-# Temp files
+# Temporary files
 *.tmp
 *.swp
 *~
 
-# Node (if ever added)
+# Node (if used in future)
 node_modules/
 package-lock.json
